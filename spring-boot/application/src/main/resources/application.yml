@@ -1,0 +1,9 @@
+application:
+  name: fintech
+  owner: Robert
+  greeter:
+    userName: Robert
+    morningMessage: Very good morning
+    afternoonMessage: Good afternoon
+    eveningMessage: Good evening
+    nightMessage: Good night

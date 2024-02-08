@@ -1,0 +1,7 @@
+application:
+  greeter:
+    userName: Robert
+    morningMessage: Good moring
+    afternoonMessage: Good afternoon
+    eveningMessage: Good evening
+    nightMessage: Good night
