@@ -1,5 +1,5 @@
 application:
-  name: fintech
+  name: fintech-local
   owner: Robert
   greeter:
     userName: Robert
@@ -7,3 +7,7 @@ application:
     afternoonMessage: Good afternoon
     eveningMessage: Good evening
     nightMessage: Good night
+app:
+  name: "Fintech"
+  value: "val"
+  colour: "Red"

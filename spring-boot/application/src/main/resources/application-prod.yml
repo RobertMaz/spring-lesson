@@ -1,0 +1,6 @@
+application:
+  name: fintech-prod
+app:
+  name: "Fintech-prod"
+  value: "val-prod"
+  colour: "Red-prod"
