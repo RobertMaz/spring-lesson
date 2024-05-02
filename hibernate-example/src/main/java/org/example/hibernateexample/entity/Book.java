@@ -20,14 +20,17 @@ public class Book implements Serializable {
 
     @Transient
     private String summary;
+
     @JoinColumn(name = "user_id")
     @ManyToOne(targetEntity = Customer.class)
     private Customer customer;
 
-    public Book(String name, String description) {
+    public Book(String name, String description, Customer customer, Integer cost) {
         this();
         this.name = name;
         this.description = description;
+        this.customer = customer;
+        this.cost = cost;
     }
 
     public Book() {

@@ -216,3 +216,8 @@ public class BookDAO extends AbstractHibernateDao<Book> {
     </session-factory>
 </hibernate-configuration>
 ```
+
+
+- [ ] Specification https://docs.spring.io/spring-data/jpa/reference/jpa/specifications.html
+- [ ] Flyway https://www.baeldung.com/database-migrations-with-flyway
+- [ ] Liquibase https://www.baeldung.com/liquibase-refactor-schema-of-java-app
